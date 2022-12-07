@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+html,body{
+ font-family: 'Roboto Slab', serif;
+
+}
+.footer{
+  
+    background: #30303c;
+}
+html .__footer {
+  padding-top: 40px;
+}
+.__footerrow{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto auto;
+}
+.footer-head h5 {
+  padding: 30px 0 20px;
+  color: #adb7c5;
+}
+ul{
+  list-style: none;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.footer-links-list li {
+  display: flex;
+  padding: 0 0 5px;
+}
+.footer-links-list li a {
+  font-size: 16px;
+  line-height: 34px;
+  color: #adb7c5;
+  text-decoration: none;
+    background-color: transparent;
+}
+.footer-links-list{
+  padding-inline-start: 0;
+}
+.__spanicon{
+  width: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+.__udemy{
+  font-size: 30px;
+    font-weight: 700;
+    color: blueviolet !important;
+    text-decoration: none;
+}
+.ref-logo a img {
+  width: 120px;
+}
+.ref-logo {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+}
+.ree-btn-grdt1 {
+  box-shadow: none!important;
+  text-decoration: none;
+}
+.__logocol3{
+  align-self: center;
+  text-align: right;
+}
+.__logosection{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.__logocol1{
+  align-self: center;
+}
+.__heading6 {
+  color: #adb7c5;
+  font-weight: 500;
+}
+.ft-copyright {
+  padding: 15px 0;
+}
+.ft-r {
+  text-align: right;
+}
+.ft-copyright p, .ft-copyright p a {
+  font-size: 16px;
+  line-height: 27px;
+  color: #adb7c5;
+  text-decoration: none;
+}

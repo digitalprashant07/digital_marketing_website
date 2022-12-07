@@ -1,0 +1,19 @@
+.__professionalperson{
+    padding-top: 100px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    transform: scale(0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);     
+
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    border: 5px solid #fff;
+    border-radius: 20px;
+  }
